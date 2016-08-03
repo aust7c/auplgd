@@ -13,11 +13,11 @@
 
     <title>
         
-          这是一条测试信息02 - Austin的博客 | Austin&#39;s Blog
+          循环、递归、按值传递、线性检索 - Austin的博客 | Austin&#39;s Blog
         
     </title>
 
-    <link rel="canonical" href="www.astoay.com/2016/08/01/这是一条测试信息02/">
+    <link rel="canonical" href="www.astoay.com/2016/08/03/some-loop-concept/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -90,14 +90,14 @@
 
                         
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/about/">About</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/about/">About</a>
+                            <a href="/tags/">Tags</a>
                         </li>
                         
                     
@@ -148,7 +148,7 @@
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        background-image: url('/img/home-bg.jpg')
+        background-image: url('post-bg-unix-linux.jpg')
     }
 </style>
 <header class="intro-header" >
@@ -158,12 +158,14 @@
                 <div class="post-heading">
                     <div class="tags">
                         
+                          <a class="tag" href="/tags/#引用" title="引用">引用</a>
+                        
                     </div>
-                    <h1>这是一条测试信息02</h1>
-                    <h2 class="subheading"></h2>
+                    <h1>循环、递归、按值传递、线性检索</h1>
+                    <h2 class="subheading">归纳笔记</h2>
                     <span class="meta">
-                        Posted by Austin chen on
-                        2016-08-01
+                        Posted by TheNeT on
+                        2016-08-03
                     </span>
                 </div>
             </div>
@@ -182,8 +184,14 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <p>###这是测试主体</p>
-<p>#####这是测试主体的呵护大 </p>
+                <blockquote>
+<p>通过一些生动形象的GIF动画及简洁的代码，帮助初学者（就是我）来认识循环、递归、二分检索等概念。</p>
+</blockquote>
+<h3 id="一、循环"><a href="#一、循环" class="headerlink" title="一、循环"></a>一、循环</h3><p>GIF 1：最简单的 while 循环<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnm06h3ug30ci08cake.gif" alt=""><br>GIF 2：带 if/else 的循环<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnm0mcxrg30ci07o47l.gif" alt=""></p>
+<h3 id="二、递归"><a href="#二、递归" class="headerlink" title="二、递归"></a>二、递归</h3><p>GIF 3：递归概念的直接演示<br><img src="http://ww3.sinaimg.cn/mw690/006faQNTgw1f5wnlzswxcg30b408cduy.gif" alt=""><br>GIF 4：递归的代码示例<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnly6j5pg30aa0faqrn.gif" alt=""><br>GIF 5：递归求斐波那契数列<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnlwhw70g30by0byu0x.gif" alt=""><br>GIF 6：递归求阶乘（图里缩进有点问题）<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnlzf8rbg30by06ykas.gif" alt=""></p>
+<h3 id="三、按值传递和按引用传递"><a href="#三、按值传递和按引用传递" class="headerlink" title="三、按值传递和按引用传递"></a>三、按值传递和按引用传递</h3><p>GIF 7：按值传递和按引用传递的区别<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnlxqkyfg30dw07iad0.gif" alt=""></p>
+<h3 id="四、线性检索和二分检索"><a href="#四、线性检索和二分检索" class="headerlink" title="四、线性检索和二分检索"></a>四、线性检索和二分检索</h3><p>GIF 8：线性检索和二分检索求 23 的位置<br><img src="http://ww4.sinaimg.cn/mw690/006faQNTgw1f5wnlwwt0mg30dw099abp.gif" alt=""><br>GIF 9：线性检索和二分检索求 1 的位置<br><img src="http://ww2.sinaimg.cn/mw690/006faQNTgw1f5wnlxbperg30dw099q4z.gif" alt=""><br>GIF 10：二分检索树<br><img src="http://ww3.sinaimg.cn/mw690/006faQNTgw1f5wnluctrag30ci0aitbs.gif" alt=""></p>
+<p>结束。</p>
 
 
                 <hr>
@@ -193,10 +201,6 @@
                 <ul class="pager">
                     
                     
-                        <li class="next">
-                            <a href="/2016/08/01/这是一条测试信息01/" data-toggle="tooltip" data-placement="top" title="这是一条测试信息01">Next Post &rarr;</a>
-                        </li>
-                    
                 </ul>
 
                 
@@ -205,6 +209,20 @@
 
             </div>
     <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
         
 
     <!-- Sidebar Container -->
@@ -221,6 +239,8 @@
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                        
+                          <a class="tag" href="/tags/#引用" title="引用">引用</a>
+                        
                     </div>
                 </section>
                 
@@ -284,10 +304,11 @@
     /* place left on bigger screen */
     @media all and (min-width: 800px) {
         .anchorjs-link{
-            position: absolute;
+/*            position: absolute;
             left: -0.75em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
+            font-size: 5.1em;
+            margin-top : -0.1em;*/
+            display: none;
         }
     }
 </style>
@@ -406,6 +427,50 @@
 
 
 <!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+        var P = $('div.post-container'),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;    
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
 
 
 
